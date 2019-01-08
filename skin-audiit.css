@@ -1,0 +1,301 @@
+/*
+ * Skin: Blue
+ * ----------
+ */
+.skin-audiit .main-header .navbar {
+  background-color: #3a4f3f;
+}
+
+.skin-audiit .main-header .team-name {
+  background-color: #3a4f3f;
+  color: white;
+  line-height: 56px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.skin-audiit .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+
+.skin-audiit .main-header .navbar .nav > li > a:hover,
+.skin-audiit .main-header .navbar .nav > li > a:active,
+.skin-audiit .main-header .navbar .nav > li > a:focus,
+.skin-audiit .main-header .navbar .nav .open > a,
+.skin-audiit .main-header .navbar .nav .open > a:hover,
+.skin-audiit .main-header .navbar .nav .open > a:focus,
+.skin-audiit .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+
+.skin-audiit .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+
+.skin-audiit .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.skin-audiit .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+
+.skin-audiit .main-header .navbar .sidebar-toggle:hover {
+  background-color: #587e60;
+}
+
+@media (max-width: 767px) {
+  .skin-audiit .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-audiit .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-audiit .main-header .navbar .dropdown-menu li a:hover {
+    background: #587e60;
+  }
+}
+
+.skin-audiit .main-header .logo {
+  background-color: #3a4f3f;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+
+.skin-audiit .main-header .logo:hover {
+  background-color: #77a37a;
+}
+
+.skin-audiit .main-header li.user-header {
+  background-color: #3a4f3f;
+}
+
+.skin-audiit .content-header {
+  background: transparent;
+}
+
+.skin-audiit .wrapper,
+.skin-audiit .left-side {
+  background-color: #222d32;
+}
+
+.skin-audiit .main-sidebar {
+  background-color: #ffffff;
+}
+
+.skin-audiit .user-panel > .info,
+.skin-audiit .user-panel > .info > a {
+  color: #fff;
+}
+
+.skin-audiit .sidebar-menu > li.header {
+  color: #4b646f;
+  /*Color of item in left menu when active*/
+  background: #1a2226;
+}
+
+.skin-audiit .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+
+.skin-audiit .sidebar-menu > li:hover > a,
+.skin-audiit .sidebar-menu > li.active > a,
+.skin-audiit .sidebar-menu > li.menu-open > a {
+  color: #4b646f;
+  background: #ffffff;
+}
+
+.skin-audiit .sidebar-menu > li.active > a {
+  /*border-left-color: #3c8dbc;*/
+  background: #ecf0f5;
+  color: #587e60;
+  font-weight: bold;
+}
+
+.skin-audiit .sidebar-menu > li.active {
+  border-right: 0px;
+  border-left: solid 3px #587e60;
+}
+
+.skin-audiit .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #ffffff;
+}
+
+.skin-audiit .sidebar a {
+  color: #4b646f;
+  /*Color of item in left menu*/
+}
+
+.skin-audiit .sidebar a:hover {
+  text-decoration: none;
+}
+
+.skin-audiit .sidebar-menu .treeview-menu > li > a {
+  color: #8aa4af;
+}
+
+.skin-audiit .sidebar-menu .treeview-menu > li.active > a,
+.skin-audiit .sidebar-menu .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+
+.skin-audiit .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #587e60;
+  margin: 10px 10px;
+}
+
+.skin-audiit .sidebar-form input[type="text"],
+.skin-audiit .sidebar-form .btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+
+.skin-audiit .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+
+.skin-audiit .sidebar-form input[type="text"]:focus,
+.skin-audiit .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+
+.skin-audiit .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+
+.skin-audiit .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+.skin-audiit.layout-top-nav .main-header > .logo {
+  background-color: #3c8dbc;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+
+.skin-audiit.layout-top-nav .main-header > .logo:hover {
+  background-color: #587e60;
+}
+
+/*copy from AdminLTE*/
+.skin-audiit .sidebar-menu > li.active .ic-dashboard {
+  background: url("../../../Content/img/Icons/ic-dashboard-blue.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .sidebar-menu > li.active .ic-analysis {
+  background: url("../../../Content/img/Icons/ic-analysis-green.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .sidebar-menu > li.active .ic-trail {
+  background: url("../../../Content/img/Icons/ic-trail-green.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .sidebar-menu > li.active .ic-intelligence {
+  background: url("../../../Content/img/Icons/ic-intelligence-green.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .sidebar-menu > li.active .ic-intergration {
+  background: url("../../../Content/img/Icons/ic-intergration-green.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .sidebar-menu > li.active .ic-services {
+  background: url("../../../Content/img/Icons/ic-services-green.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .sidebar-menu > li.active .ic-setting {
+  background: url("../../../Content/img/Icons/ic-setting-green.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+/*multi*/
+.skin-audiit .ic-setting-btn {
+  background: url("../../../Content/img/Icons/ic-setting.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .btn-action {
+  background-color: #587e60;
+}
+
+.skin-audiit .ic-close {
+  background: url("../../../Content/img/Icons/ic-close.svg") no-repeat scroll center center/100% auto rgba(0, 0, 0, 0);
+}
+
+.skin-audiit .modal-title {
+  color: #587e60;
+}
+
+.skin-audiit .sidebar-header-text {
+  color: #587e60;
+}
+
+.skin-audiit .tab_active {
+  background-color: #587e60;
+  border-color: #587e60;
+  color: white;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+  color: #fff;
+  background-color: #587e60;
+  border-color: #587e60;
+}
+
+.skin-audiit .pagination > .active > a,
+.skin-audiit .pagination > .active > span,
+.skin-audiit .pagination > .active > a:hover,
+.skin-audiit .pagination > .active > span:hover,
+.skin-audiit .pagination > .active > a:focus,
+.skin-audiit .pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #587e60;
+  border-color: #587e60;
+}
+
+.skin-audiit .panel-primary {
+  border-color: #587e60;
+}
+
+.skin-audiit .panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #587e60;
+  border-color: #587e60;
+}
+
+.skin-audiit .table > thead > tr > th:focus,
+.skin-audiit .table > thead > tr > th.focus,
+.skin-audiit .table > thead > tr > th.active,
+.skin-audiit .table > thead > tr > th:active {
+  background-color: #587e60;
+  color: white;
+}
+
+.skin-audiit .form-control {
+  border-color: #587e60;
+}
+/*# sourceMappingURL=skin-audiit.css.map */
